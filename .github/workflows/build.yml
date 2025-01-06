@@ -7,17 +7,17 @@ on:
         description: 'ImmortalWrt 仓库的拥有者 (Owner of ImmortalWrt repo)'
         type: string
         required: true
-        default: 'padavanonly'
+        default: 'yho2ds'
       repo:
         description: 'ImmortalWrt 仓库的名字 (Name of ImmortalWrt repo)'
         type: string
         required: true
-        default: 'immortalwrtARM'
+        default: 'immortalwrt-tr3000-112m'
       branch:
         description: 'ImmortalWrt 仓库的分支 (Branch of ImmortalWrt repo)'
         type: string
         required: true
-        default: 'mt7986'
+        default: 'master'
       multithreading:
         description: '开启多线程编译 (Enable multithreading build)'
         type: boolean
